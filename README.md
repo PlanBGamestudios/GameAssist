@@ -1,7 +1,7 @@
 # GameAssist
 
 
-[![Downloads](https://img.shields.io/github/downloads/PlanBGamestudios/GameAssist/total.svg?style=flat-square)]()
+[![Downloads](https://img.shields.io/github/commit-activity/m/PlanBGamestudios/GameAssist.svg)](https://img.shields.io/github/commit-activity/m/PlanBGamestudios/GameAssist.svg)
 
 A simple test app made with Ionic Framework & Angular to teach game programming and game design.
 
