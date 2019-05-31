@@ -1,7 +1,6 @@
 # GameAssist
 
-
-![commit activity](https://img.shields.io/github/commit-activity/m/PlanBGamestudios/GameAssist.svg)
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/PlanBGamestudios/GameAssist.svg">
 
 A simple test app made with Ionic Framework & Angular to teach game programming and game design.
 
