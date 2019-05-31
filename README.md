@@ -1,4 +1,7 @@
 # GameAssist
+
+
+[![Downloads](https://img.shields.io/github/downloads/PlanBGamestudios/GameAssist/total.svg?style=flat-square)](https://bintray.com/asciidoctor/maven/asciidoctorj)
 A simple test app made with Ionic Framework & Angular to teach game programming and game design.
 
 ![Screenshot](https://raw.githubusercontent.com/PlanBGamestudios/GameAssist/master/GameAssist/resources/img/screenshot.JPG "Screenshot")
