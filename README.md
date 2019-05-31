@@ -10,6 +10,8 @@ A simple test app made with Ionic Framework & Angular to teach game programming 
 - cordova
 - Android SDK
 
+For more details on requirements and build information go to [the Ionic Docs](https://ionicframework.com/docs/).
+
 ## Debug
 
 Clone this repository and deploy the app using the Ionic framework.
