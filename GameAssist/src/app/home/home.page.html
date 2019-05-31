@@ -5,11 +5,13 @@
     </ion-buttons>
     <ion-title><b>Game</b> Assist</ion-title>
   </ion-toolbar>
+<ion-toolbar>
+  <ion-searchbar placeholder="Search courses" color="success" animated></ion-searchbar>
+</ion-toolbar>
+
 </ion-header>
 
 <ion-content>
-<ion-searchbar color="success" animated></ion-searchbar>
-
    <ion-card>
     <img src="https://instabug.com/blog/wp-content/uploads/2017/12/Cryengine-1024x576.jpg">
   <ion-card-header>
@@ -82,7 +84,7 @@
   </ion-card-header>
 
   <ion-card-content>
-      <ion-item href="#" class="activated">
+    <ion-item href="#" class="activated">
 	    <ion-icon name="code" slot="start"></ion-icon>
 	    <ion-label>Introduction</ion-label>
 	  </ion-item>
@@ -105,9 +107,3 @@
 </ion-card>
 
 </ion-content>
-
-<ion-footer>
-  <ion-toolbar color="primary">
-    <ion-title>Footer</ion-title>
-  </ion-toolbar>
-</ion-footer>
