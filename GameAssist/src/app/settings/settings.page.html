@@ -13,9 +13,13 @@
 </ion-header>
 
 <ion-content>
-
-
-
+  <ion-list>
+    <ion-item *ngFor="let entry of form">
+      <ion-label>{{entry.val}}</ion-label>
+      <ion-checkbox slot="end" [(ngModel)]="entry.isChecked"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="block" size="large" color="primary" fill="outline" (click)='presentToast()'>Save settings</ion-button>
 </ion-content>
 
 
