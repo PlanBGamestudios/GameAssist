@@ -14,7 +14,7 @@
       <ion-checkbox slot="end" [(ngModel)]="entry.isChecked"></ion-checkbox>
     </ion-item>
   </ion-list>
-  <ion-button expand="block" size="large" color="primary" fill="outline" (click)='presentToast()'>Save settings</ion-button>
+  <ion-button expand="block" size="large" color="primary" (click)="presentToast()" [routerLink]="['/home']">Save settings</ion-button>
 </ion-content>
 
 

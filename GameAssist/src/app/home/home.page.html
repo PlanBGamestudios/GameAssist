@@ -6,7 +6,7 @@
     <ion-title><b>Game</b> Assist</ion-title>
   </ion-toolbar>
 <ion-toolbar>
-  <ion-searchbar placeholder="Search courses" animated></ion-searchbar>
+  <ion-searchbar placeholder="Search courses" autocomplete="on" animated></ion-searchbar>
 </ion-toolbar>
 
 </ion-header>
@@ -21,8 +21,10 @@
   <ion-fab-button color="success" [routerLink]="['/statistics']"><ion-icon name="analytics"></ion-icon></ion-fab-button>
   <ion-fab-button color="success" [routerLink]="['/settings']"><ion-icon name="cog"></ion-icon></ion-fab-button>
 </ion-fab-list>
-
-
+<ion-fab-list side="start">
+<ion-fab-button color="light"><ion-icon name="logo-github"></ion-icon></ion-fab-button>
+<ion-fab-button color="light"><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+</ion-fab-list>
 </ion-fab>
 
 <ion-content>
