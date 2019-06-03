@@ -3,12 +3,19 @@
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
+    <ion-buttons slot="secondary">
+   <ion-button>
+     <ion-icon slot="icon-only" name="refresh"></ion-icon>
+   </ion-button>
+   <ion-button>
+     <ion-icon slot="icon-only" name="search"></ion-icon>
+   </ion-button>
+ </ion-buttons>
     <ion-title><b>Game</b> Assist</ion-title>
   </ion-toolbar>
 <ion-toolbar>
   <ion-searchbar placeholder="Search courses" autocomplete="on" animated></ion-searchbar>
 </ion-toolbar>
-
 </ion-header>
 
 <!-- fab placed to the top end -->
@@ -22,8 +29,9 @@
   <ion-fab-button color="success" [routerLink]="['/settings']"><ion-icon name="cog"></ion-icon></ion-fab-button>
 </ion-fab-list>
 <ion-fab-list side="start">
-<ion-fab-button color="light"><ion-icon name="logo-github"></ion-icon></ion-fab-button>
-<ion-fab-button color="light"><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+  <ion-fab-button color="light" href="https://instagram.com/planbgamestudio"><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+  <ion-fab-button color="light" href="https://github.com/planbgamestudio"><ion-icon name="logo-github"></ion-icon></ion-fab-button>
+  <ion-fab-button color="light" href="https://twitter.com/planbgamestudio"><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
 </ion-fab-list>
 </ion-fab>
 
