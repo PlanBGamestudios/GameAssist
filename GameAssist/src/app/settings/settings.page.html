@@ -11,7 +11,7 @@
   <ion-list>
     <ion-item *ngFor="let entry of form">
       <ion-label>{{entry.val}}</ion-label>
-      <ion-checkbox slot="end" [(ngModel)]="entry.isChecked"></ion-checkbox>
+      <ion-toggle slot="end" color="{{entry.color}}" [(ngModel)]="entry.checked"></ion-toggle>
     </ion-item>
   </ion-list>
   <ion-button expand="block" size="large" color="primary" (click)="presentToast()" [routerLink]="['/home']">Save settings</ion-button>

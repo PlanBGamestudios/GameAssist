@@ -23,9 +23,9 @@ export class settingsPage {
     }
 
     public form = [
-    { val: 'Awesome setting #1', isChecked: true },
-    { val: 'Enable statistics', isChecked: true },
-    { val: 'Awesome setting #2', isChecked: false },
-    { val: 'Awesome setting #3', isChecked: true }
+    { val: 'User statistics', checked: true, color: 'success' },
+    { val: 'Send error reports', checked: false, color: 'success' },
+    { val: 'Awesome setting #2', checked: false, color: 'success' },
+    { val: 'Awesome setting #3', checked: true, color: 'success' }
   ];
 }
