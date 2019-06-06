@@ -12,10 +12,9 @@ export class HomePage {
 
   async presentAlert(msg) {
   const alert = await this.alertController.create({
-    header: 'Information:',
-    subHeader: 'Sorry!',
+    header: 'Information',
     message: msg,
-    buttons: ['OK']
+    buttons: ['Understood']
   });
 
   await alert.present();
