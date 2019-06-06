@@ -37,6 +37,10 @@
 
 <ion-content>
 
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content pullingIcon="arrow-dropdown" pullingText="Pull to refresh" refreshingText="Refreshing..."></ion-refresher-content>
+  </ion-refresher>
+
   <ion-grid>
   <ion-row>
     <ion-col>
@@ -86,24 +90,24 @@
        </ion-card-header>
 
        <ion-card-content>
-           <ion-item href="#" class="activated" lines='none'>
+           <ion-item (click)="presentAlert('Course not available.')" lines='none'>
            <ion-icon name="brush" slot="start"></ion-icon>
-           <ion-label>Introduction <ion-badge color="danger">42</ion-badge></ion-label>
+           <ion-label>Introduction <ion-badge color="danger"><ion-icon name="happy"></ion-icon> New!</ion-badge></ion-label>
          </ion-item>
 
-         <ion-item href="#" lines='none'>
+         <ion-item (click)="presentAlert('Course not available.')" lines='none'>
            <ion-icon name="brush" slot="start"></ion-icon>
-           <ion-label>This is a lesson. <ion-badge color="danger">42</ion-badge></ion-label>
+           <ion-label>This is a lesson. <ion-badge color="danger"><ion-icon name="happy"></ion-icon> New!</ion-badge></ion-label>
          </ion-item>
 
-         <ion-item class="activated" lines='none'>
+         <ion-item (click)="presentAlert('Course not available.')" lines='none'>
            <ion-icon name="brush" slot="start"></ion-icon>
-           <ion-label>This is a lesson. <ion-badge color="danger">42</ion-badge></ion-label>
+           <ion-label>This is a lesson. <ion-badge color="danger"><ion-icon name="happy"></ion-icon> New!</ion-badge></ion-label>
          </ion-item>
 
-         <ion-item lines='none'>
+         <ion-item (click)="presentAlert('Course not available.')" lines='none'>
            <ion-icon name="brush" slot="start"></ion-icon>
-           <ion-label>This is a lesson. <ion-badge color="danger">42</ion-badge></ion-label>
+           <ion-label>This is a lesson. <ion-badge color="danger"><ion-icon name="happy"></ion-icon> New!</ion-badge></ion-label>
          </ion-item>
        </ion-card-content>
      </ion-card>
@@ -119,24 +123,24 @@
       </ion-card-header>
 
       <ion-card-content>
-        <ion-item href="#" lines='none'>
+        <ion-item (click)="presentAlert('Course not available.')" lines='none'>
           <ion-icon name="code" slot="start"></ion-icon>
-          <ion-label>Introduction <ion-badge color="primary">12</ion-badge></ion-label>
+          <ion-label>Introduction <ion-badge color="primary"><ion-icon name="happy"></ion-icon> New!</ion-badge></ion-label>
         </ion-item>
 
-        <ion-item href="#" lines='none'>
+        <ion-item (click)="presentAlert('Course not available.')" lines='none'>
           <ion-icon name="code" slot="start"></ion-icon>
-          <ion-label>This is a lesson. <ion-badge color="primary">12</ion-badge></ion-label>
+          <ion-label>This is a lesson. <ion-badge color="primary"><ion-icon name="happy"></ion-icon> New!</ion-badge></ion-label>
         </ion-item>
 
-        <ion-item lines='none'>
+        <ion-item (click)="presentAlert('Course not available.')" lines='none'>
           <ion-icon name="code" slot="start"></ion-icon>
-          <ion-label>This is a lesson. <ion-badge color="primary">12</ion-badge></ion-label>
+          <ion-label>This is a lesson. <ion-badge color="primary"><ion-icon name="happy"></ion-icon> New!</ion-badge></ion-label>
         </ion-item>
 
-        <ion-item lines='none'>
+        <ion-item (click)="presentAlert('Course not available.')" lines='none'>
           <ion-icon name="code" slot="start"></ion-icon>
-          <ion-label>This is a lesson. <ion-badge color="primary">12</ion-badge></ion-label>
+          <ion-label>This is a lesson. <ion-badge color="primary"><ion-icon name="happy"></ion-icon> New!</ion-badge></ion-label>
         </ion-item>
       </ion-card-content>
     </ion-card>
