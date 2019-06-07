@@ -9,6 +9,13 @@
 
 <ion-content>
   <ion-list>
+    <ion-item>
+      <ion-label>Theme</ion-label>
+      <ion-select placeholder="Select One">
+        <ion-select-option value="light">Light</ion-select-option>
+        <ion-select-option value="dark">Dark</ion-select-option>
+      </ion-select>
+    </ion-item>
     <ion-item *ngFor="let entry of form">
       <ion-label>{{entry.val}}</ion-label>
       <ion-toggle slot="end" color="{{entry.color}}" [(ngModel)]="entry.checked"></ion-toggle>
