@@ -1,7 +1,7 @@
 # GameAssist
 
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/PlanBGamestudios/GameAssist.svg">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/planbgamestudio?style=social">
+<a href="https://twitter.com/planbgamestudio"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/planbgamestudio?style=social"></a>
 
 A simple test app made with Ionic Framework & Angular to teach game programming and game design.
 
