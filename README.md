@@ -21,6 +21,8 @@ Clone this repository and deploy the app using the Ionic framework.
 
 `ionic serve`
 
+`ìonic repair` if the app throws errors while debugging.
+
 ## Build
 
 To test this app on your phone either use the Ionic DevApp or make a new build using Cordova.
